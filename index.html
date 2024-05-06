@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main-section">
+        <div class="header">
+            <div class="logo-section">
+                <div class="menu-option"><a href=""><i class="fa-solid fa-bars fa-xl"></i></a></div>
+                <div class="logo"><a href=""><img src="images/logo.png" alt="logo"></a></div>
+            </div>
+            <div class="search-bar">
+                <div class="input-field">
+                    <input type="text" placeholder="Search">
+                    <a href=""><i id="search-icon" class="fa-solid fa-magnifying-glass fa-xl bg-change"></i></a>
+                </div>
+                <div class="mic-option"><a href=""><i id="mic-icon" class="fa-solid fa-microphone fa-lg bg-change"
+                            style="color: #000000;"></i></a></div>
+            </div>
+            <div class="menu">
+                <div class="menu-icon"><a href=""><i class="fa-solid fa-ellipsis-vertical fa-xl"
+                            style="color: #000000;"></i></a></div>
+                <a href="">
+                    <div class="sign-in">
+                        <div class="sign-in-icon"><i class="fa-solid fa-user fa-lg" style="color: #3462b2;"></i></div>
+                        <div class="sign-in-link">sign-in</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="left-container">
+                <div class="left-container-div">
+                    <a href="">
+                        <div class="left-container-div-option default-hover">
+                            <div class="icon"><i class="fa-solid fa-house" style="color: #000000;"></i></div>
+                            <div class="title">Home</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-file-video" style="color: #000000;"></i></div>
+                            <div class="title">Shorts</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-photo-film" style="color: #000000;"></i></div>
+                            <div class="title">Subscription</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="container-devide-line"></div>
+                <div class="left-container-div">
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-circle-play" style="color: #000000;"></i></div>
+                            <div class="title">You</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-clock-rotate-left" style="color: #000000;"></i>
+                            </div>
+                            <div class="title">History</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="container-devide-line"></div>
+                <div class="left-container-div">
+                    <div class="sign-in-des">Sign in to like videos,<br>comment and subscribe.</div>
+                    <div class="sign-btn">
+                        <a href="">
+                            <div class="sign-in">
+                                <div class="sign-in-icon"><i class="fa-solid fa-user fa-lg" style="color: #3462b2;"></i>
+                                </div>
+                                <div class="sign-in-link">sign-in</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="container-devide-line"></div>
+                <div class="left-container-div">
+                    <div class="left-container-div-option-title">
+                        <div class="title">Explore</div>
+                    </div>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-arrow-trend-up" style="color: #000000;"></i></div>
+                            <div class="title">Trending</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-bag-shopping" style="color: #000000;"></i></div>
+                            <div class="title">Shopping</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-music" style="color: #000000;"></i></div>
+                            <div class="title">Music</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-clapperboard" style="color: #000000;"></i></div>
+                            <div class="title">Films</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-tower-broadcast" style="color: #000000;"></i></div>
+                            <div class="title">Live</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-gamepad" style="color: #000000;"></i></div>
+                            <div class="title">Gaming</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-newspaper" style="color: #000000;"></i></div>
+                            <div class="title">News</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-trophy" style="color: #000000;"></i></div>
+                            <div class="title">Sport</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-lightbulb" style="color: #000000;"></i></div>
+                            <div class="title">Learning</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-shirt" style="color: #000000;"></i></div>
+                            <div class="title">Fashion & beauty</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-podcast" style="color: #000000;"></i></div>
+                            <div class="title">Podcasts</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="container-devide-line"></div>
+                <div class="left-container-div">
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-square-plus" style="color: #000000;"></i></div>
+                            <div class="title">Browse channels</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="container-devide-line"></div>
+                <div class="left-container-div">
+                    <div class="left-container-div-option-title">
+                        <div class="title">More from YouTube</div>
+                    </div>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <!-- <div class="icon"><i class="fa-solid fa-arrow-trend-up" style="color: #000000;"></i></div> -->
+                            <div class="icon"><img src="images/yt-icon.png" alt=""></div>
+                            <div class="title">YouTube Premium</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <!-- <div class="icon"><i class="fa-solid fa-bag-shopping" style="color: #000000;"></i></div> -->
+                            <div class="icon"><img src="images/yt-music-icon.png" alt=""></div>
+                            <div class="title">YouTube Music</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <!-- <div class="icon"><i class="fa-solid fa-bag-shopping" style="color: #000000;"></i></div> -->
+                            <div class="icon"><img src="images/yt-kids-icon.png" alt=""></div>
+                            <div class="title">YouTube Kids</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="container-devide-line"></div>
+                <div class="left-container-div">
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-gear" style="color: #000000;"></i></div>
+                            <div class="title">Settings</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-font-awesome" style="color: #000000;"></i>
+                            </div>
+                            <div class="title">Report history</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-circle-question" style="color: #000000;"></i>
+                            </div>
+                            <div class="title">Help</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="left-container-div-option">
+                            <div class="icon"><i class="fa-solid fa-message" style="color: #000000;"></i>
+                            </div>
+                            <div class="title">Send feedback</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="container-devide-line"></div>
+                <div class="left-container-div">
+                    <div class="left-container-div-footer">
+                        <a href="">About</a>&nbsp;
+                        <a href="">Press</a>&nbsp;
+                        <a href="">Copyright</a>&nbsp;
+                        <a href="">Contact us</a>&nbsp;
+                        <a href="">Creator</a>&nbsp;
+                        <a href="">Advertise</a>&nbsp;
+                        <a href="">Developers</a>
+                    </div>
+                    <div class="left-container-div-footer">
+                        <a href="">Terms</a>&nbsp;
+                        <a href="">Privacy</a>&nbsp;
+                        <a href="">Policy&Safety</a><br>
+                        <a href="">How YouTube works</a><br>
+                        <a href="">Test new features</a>
+                    </div>
+                    <div class="left-container-div-footer">
+                        &copy; 2024 Google LLC
+                    </div>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="cat-scroll">
+                    <div class="scroll-item">
+                        <a href="" id="scroll-item-all">
+                            All
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Music
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Live
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Gaming
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Test
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Computer&nbsp;Programming
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Web&nbsp;Development
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Mix
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Java&nbsp;Script
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Aryan
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Generate
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Movie
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            View
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            India
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Gujarat
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Ahmedabad
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            More
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Extra
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Youtube
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Instagram
+                        </a>
+                    </div>
+                    <div class="scroll-item">
+                        <a href="">
+                            Snapchat
+                        </a>
+                    </div>
+                </div>
+                <div class="videos">
+                    <div class="videos-row">
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/300x206" width="100%"
+                                    height="100%" alt=""></div>
+                            <div class="video-des">
+                                <div class="video-des-logo">
+                                    <div class="logo"><img src="https://source.unsplash.com/featured/300x201"
+                                            width="100%" height="100%" alt=""></div>
+                                </div>
+                                <div class="video-des-content">
+                                    <div class="title des-text"><b>Falling into jupiter (simulation)</b></div>
+                                    <div class="channel small-des des-text">Music beast</div>
+                                    <div class="view-duration small-des des-text">
+                                        <div class="view-count">2.3M views</div>
+                                        <div class="duration">3 months ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/300x205" width="100%"
+                                    height="100%" alt=""></div>
+                            <div class="video-des">
+                                <div class="video-des-logo">
+                                    <di class="logo">
+                                        <div class="logo"><img src="https://source.unsplash.com/featured/300x203"
+                                                width="100%" height="100%" alt=""></div>
+                                </div>
+                                <div class="video-des-content">
+                                    <div class="title des-text"><b>A quick look at my homelab.</b></div>
+                                    <div class="channel small-des des-text">My vlogs</div>
+                                    <div class="view-duration small-des des-text">
+                                        <div class="view-count">1M views</div>
+                                        <div class="duration">1 months ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/300x207" width="100%"
+                                    height="100%" alt=""></div>
+                            <div class="video-des">
+                                <div class="video-des-logo">
+                                    <div class="logo"><img src="https://source.unsplash.com/featured/300x202"
+                                            width="100%" height="100%" alt=""></div>
+                                </div>
+                                <div class="video-des-content">
+                                    <div class="title des-text"><b>International Space Station NASA View With Map - 5750
+                                            - 2024-05-03</b></div>
+                                    <div class="channel small-des des-text">Julian Danzer</div>
+                                    <div class="view-duration small-des des-text">
+                                        <div class="view-count">54 views</div>
+                                        <div class="duration">3 days ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videos-row">
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/300x208" width="100%"
+                                    height="100%" alt=""></div>
+                            <div class="video-des">
+                                <div class="video-des-logo">
+                                    <div class="logo"><img src="https://source.unsplash.com/featured/302x200"
+                                            width="100%" height="100%" alt=""></div>
+                                </div>
+                                <div class="video-des-content">
+                                    <div class="title des-text"><b>Top 7 Most Terrifying Sounds of WAR</b></div>
+                                    <div class="channel small-des des-text">MR SLAV</div>
+                                    <div class="view-duration small-des des-text">
+                                        <div class="view-count">16M views</div>
+                                        <div class="duration">7 years ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/300x209" width="100%"
+                                    height="100%" alt=""></div>
+                            <div class="video-des">
+                                <div class="video-des-logo">
+                                    <div class="logo"><img src="https://source.unsplash.com/featured/300x198"
+                                            width="100%" height="100%" alt=""></div>
+                                </div>
+                                <div class="video-des-content">
+                                    <div class="title des-text"><b>Day in the life of a Software Engineer in NYC | Empire State Building office</b></div>
+                                    <div class="channel small-des des-text">Software Engineer</div>
+                                    <div class="view-duration small-des des-text">
+                                        <div class="view-count">5M views</div>
+                                        <div class="duration">2 years ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/300x210" width="100%"
+                                    height="100%" alt=""></div>
+                            <div class="video-des">
+                                <div class="video-des-logo">
+                                    <div class="logo"><img src="https://source.unsplash.com/featured/300x199"
+                                            width="100%" height="100%" alt=""></div>
+                                </div>
+                                <div class="video-des-content">
+                                    <div class="title des-text"><b>How to be disciplined</b></div>
+                                    <div class="channel small-des des-text">A guy</div>
+                                    <div class="view-duration small-des des-text">
+                                        <div class="view-count">46M views</div>
+                                        <div class="duration">4 years ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videos-row">
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/301x210" width="100%"
+                                height="100%" alt=""></div>
+                        <div class="video-des">
+                            <div class="video-des-logo">
+                                <div class="logo"><img src="https://source.unsplash.com/featured/321x199"
+                                        width="100%" height="100%" alt=""></div>
+                            </div>
+                            <div class="video-des-content">
+                                <div class="title des-text"><b>Emma Peters - Clandestina (Live @home)</b></div>
+                                <div class="channel small-des des-text">Emma Peters and Family</div>
+                                <div class="view-duration small-des des-text">
+                                    <div class="view-count">1.8M views</div>
+                                    <div class="duration">2 days ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/302x210" width="100%"
+                                height="100%" alt=""></div>
+                        <div class="video-des">
+                            <div class="video-des-logo">
+                                <div class="logo"><img src="https://source.unsplash.com/featured/320x199"
+                                        width="100%" height="100%" alt=""></div>
+                            </div>
+                            <div class="video-des-content">
+                                <div class="title des-text"><b>Top 7 best books</b></div>
+                                <div class="channel small-des des-text">Best Books</div>
+                                <div class="view-duration small-des des-text">
+                                    <div class="view-count">242k views</div>
+                                    <div class="duration">2 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/301x211" width="100%"
+                                height="100%" alt=""></div>
+                        <div class="video-des">
+                            <div class="video-des-logo">
+                                <div class="logo"><img src="https://source.unsplash.com/featured/310x200"
+                                        width="100%" height="100%" alt=""></div>
+                            </div>
+                            <div class="video-des-content">
+                                <div class="title des-text"><b>The last war</b></div>
+                                <div class="channel small-des des-text">my fight</div>
+                                <div class="view-duration small-des des-text">
+                                    <div class="view-count">1M views</div>
+                                    <div class="duration">1 month ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="videos-row">
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/301x202" width="100%"
+                                height="100%" alt=""></div>
+                        <div class="video-des">
+                            <div class="video-des-logo">
+                                <div class="logo"><img src="https://source.unsplash.com/featured/301x199"
+                                        width="100%" height="100%" alt=""></div>
+                            </div>
+                            <div class="video-des-content">
+                                <div class="title des-text"><b>CSK vs MI</b></div>
+                                <div class="channel small-des des-text">IPL</div>
+                                <div class="view-duration small-des des-text">
+                                    <div class="view-count">219M views</div>
+                                    <div class="duration">7 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/304x210" width="100%"
+                                height="100%" alt=""></div>
+                        <div class="video-des">
+                            <div class="video-des-logo">
+                                <div class="logo"><img src="https://source.unsplash.com/featured/320x194"
+                                        width="100%" height="100%" alt=""></div>
+                            </div>
+                            <div class="video-des-content">
+                                <div class="title des-text"><b>Top 10 phones</b></div>
+                                <div class="channel small-des des-text">best phones</div>
+                                <div class="view-duration small-des des-text">
+                                    <div class="view-count">13k views</div>
+                                    <div class="duration">1 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="video-div">
+                            <div class="video"><img src="https://source.unsplash.com/featured/330x220" width="100%"
+                                height="100%" alt=""></div>
+                        <div class="video-des">
+                            <div class="video-des-logo">
+                                <div class="logo"><img src="https://source.unsplash.com/featured/310x200"
+                                        width="100%" height="100%" alt=""></div>
+                            </div>
+                            <div class="video-des-content">
+                                <div class="title des-text"><b>Mix songs with dj</b></div>
+                                <div class="channel small-des des-text">dj song</div>
+                                <div class="view-duration small-des des-text">
+                                    <div class="view-count">32M views</div>
+                                    <div class="duration">2 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

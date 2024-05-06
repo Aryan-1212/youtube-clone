@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+:root{
+    --bg-color: white;
+    --font-color: black;
+    --hover-color: rgb(231, 231, 231);
+    --DarkHover-color: rgb(219, 216, 216);
+    --border: #ccc;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-section{
+    width: 100vw;
+    height: 100vh;
+    color: var(--font-color);
+    background-color: var(--bg-color);
+    overflow: hidden;
+}
+
+.main-section .header{
+    height: 60px;
+    display: flex;
+}
+.main-section .header .logo-section{
+    width: 15%;
+    display: flex;
+}
+
+.main-section .header .logo-section .menu-option{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section .header .logo-section .logo{
+    height: 100%;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 15px 30px 15px 5px;
+}
+
+.main-section .header .logo-section .logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.main-section .header .search-bar{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section .header .search-bar input{
+    width: 550px;
+    padding: 10px 15px;
+    font-size:medium;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 1px solid var(--border);
+}
+
+.main-section .header .search-bar #search-icon{
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 19px;
+    border: 1px solid var(--border);
+    border-left: none;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.main-section .header .search-bar #search-icon:hover{
+    background-color: var(--hover-color);
+}
+.main-section .header .search-bar #mic-icon:hover{
+    background-color: var(--hover-color);
+}
+
+.main-section .header .search-bar #mic-icon{
+    margin-left: 75px;
+    padding: 20px 14px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.menu{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.main-section .header .menu .menu-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in{
+    display: flex;
+    width: 70px;
+    justify-content: space-between;
+    padding: 8px 15px;
+    border: 1px solid var(--border);
+    border-radius: 100px;
+}
+
+.sign-in .sign-in-link{
+    color: blue;
+}
+
+.sign-in:hover{
+    background-color: #cddefa;
+}
+
+.main-container{
+    display: flex;
+    width: 100%;
+}
+.main-container .left-container{
+    height: calc(100vh - 60px);
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.default-hover{
+    background-color: var(--hover-color);
+    font-weight: 600;
+}
+
+.main-container .left-container .left-container-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 25px 10px 10px;
+    box-sizing: border-box;
+}
+
+.main-container .left-container .left-container-div-option{
+    /* width: 100%; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.main-container .left-container .left-container-div-footer{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.main-container .left-container .left-container-div-option-title{
+    padding: 3px 0px 3px  19px;
+    font-weight: 600;
+}
+
+.main-container .left-container .left-container-div-option:hover{
+    background-color: var(--hover-color);
+}
+
+.main-container .left-container .left-container-div-option .icon{
+    height: 100%;
+    width: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .left-container .left-container-div-option .icon img{
+    height: 100%;
+    width: 100%;
+}
+
+.main-container .left-container .container-devide-line{
+    margin: 5px 0px;
+    width: 95%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.main-container .left-container .sign-in-des{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.sign-btn{
+    padding: 12px 0px 0px 19px;
+}
+
+.main-container .right-container{
+    height: calc(100vh - 90px);
+    width: 84%;
+    margin-right: 20px;
+}
+
+.main-container .right-container .cat-scroll{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: horizontal;
+    overflow-x: scroll;
+}
+.main-container .right-container .cat-scroll .scroll-item{
+    background-color: var(--hover-color);
+    height: 30px;
+    margin: 10px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.main-container .right-container .cat-scroll .scroll-item a{
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.main-container .right-container .cat-scroll .scroll-item a:hover{
+    background-color: var(--DarkHover-color);
+}
+#scroll-item-all{
+    background-color: black;
+    color: white;
+}
+.right-container .videos{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.right-container .videos .videos-row{
+    height: 380px;
+    width: 100%;
+    display: flex;
+}
+
+.right-container .videos .videos-row .video-div{
+    margin: 10px;
+    height: 340px;
+    width: 410px;
+}
+.right-container .videos .videos-row .video-div .video{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.right-container .videos .videos-row .video-div .video img{
+    border-radius: 20px;
+}
+
+.right-container .videos .videos-row .video-div .video-des{
+    padding-top: 10px;
+    height: 90px;
+    display: flex;
+}
+
+.video-div .video-des .video-des-logo{
+    width: 13%;
+    height: 100%;
+}
+.video-div .video-des .video-des-logo .logo{
+    height: 50px;
+}
+.video-div .video-des .video-des-logo .logo img{
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+}
+.video-div .video-des .video-des-content{
+    padding-left: 10px;
+    height: 90px;
+    width: 90%;
+}
+.video-div .video-des .video-des-content .view-duration{
+    display: flex;
+}
+.video-div .video-des .video-des-content .view-duration div{
+    margin-right: 10px;
+}
+.video-div .video-des .video-des-content .small-des{
+    font-size: 14px;
+}
+.video-div .video-des .video-des-content .des-text{
+    margin-bottom: 5px;
+}
