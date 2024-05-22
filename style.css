@@ -135,6 +135,21 @@ a{
     display: flex;
     width: 100%;
 }
+
+#res_1330{
+    display: none;
+}
+#res_1330 .icon{
+    margin-top: 30px;
+    text-align: center;
+}
+#res_1330 .icon-title{
+    margin-top: 8px;
+    text-align: center;
+    width: 100%;
+    font-size: x-small;
+}
+
 .main-container .left-container{
     height: calc(100vh - 60px);
     width: 16%;
@@ -211,7 +226,7 @@ a{
 .main-container .right-container{
     height: calc(100vh - 90px);
     width: 84%;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .main-container .right-container .cat-scroll{
@@ -302,4 +317,188 @@ a{
 }
 .video-div .video-des .video-des-content .des-text{
     margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1330px) {
+    .right-container .videos .videos-row .video-div .video {
+        height: 220px;
+    }
+    .right-container .videos .videos-row {
+        height: 350px;
+    }
+    .main-container .left-container {
+        display: none;
+    }
+    #res_1330{
+        display: flex;
+        width: 8%;
+    }
+    .main-container .right-container{
+        width: 92%;
+    }
+    .video-div .video-des .video-des-logo .logo {
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    #res_1330{
+        width: 10%;
+    }
+    .main-container .right-container{
+        width: 90%;
+    }
+    .right-container .videos .videos-row .video-div .video {
+        height: 200px;
+    }
+    .right-container .videos .videos-row {
+        height: 330px;
+    }
+    .main-section .header .search-bar input {
+        width: 450PX;
+    }
+    .main-section .header .logo-section {
+        width: 20%;
+    }
+    .main-section .header .logo-section .logo {
+        padding: 15px 15px 15px 5px;
+    }
+    .video-div .video-des .video-des-logo .logo {
+        height: 42px;
+    }
+    #res_1330 .icon-title{
+        font-size: xx-small;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #res_1330{
+        width: 12%;
+    }
+    .main-container .right-container{
+        width: 88%;
+    }
+    .right-container .videos .videos-row .video-div .video {
+        height: 150px;
+    }
+    .right-container .videos .videos-row {
+        height: 270px;
+    }
+    .main-section .header .search-bar input {
+        width: 230PX;
+        padding: 8px 12px;
+    }
+    .main-section .header .logo-section {
+        width: 30%;
+    }
+    .main-section .header .logo-section .logo {
+        padding: 15px 5px 15px 20px;
+    }
+    .video-div .video-des .video-des-logo .logo {
+        height: 32px;
+    }
+    .main-section .header .search-bar #search-icon{
+        padding: 17px;
+    }
+    .video-div .video-des .video-des-content .des-text {
+        font-size: 14px;
+    }
+    .video-div .video-des .video-des-content .small-des {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #res_1330{
+        width: 15%;
+    }
+    .main-container .right-container{
+        width: 85%;
+    }
+    .right-container .videos .videos-row .video-div .video {
+        height: 120px;
+    }
+    .right-container .videos .videos-row {
+        height: 240px;
+    }
+    .main-section .header .search-bar input {
+        width: 100PX;
+        padding: 4px 8px;
+    }
+    .main-section .header .logo-section {
+        width: 30%;
+    }
+    .main-section .header .logo-section .logo {
+        padding: 15px 0px 15px 20px;
+    }
+    .video-div .video-des .video-des-logo .logo {
+        height: 25px;
+    }
+    .main-section .header .search-bar #search-icon{
+        padding: 13px;
+    }
+    .video-div .video-des .video-des-content .des-text {
+        font-size: 12px;
+    }
+    .video-div .video-des .video-des-content .small-des {
+        font-size: 11px;
+    }
+    .sign-in{
+        padding: 6px 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .right-container .videos .videos-row {
+        flex-direction: column;
+    }
+    #res_1330{
+        width: 18%;
+    }
+    .main-container .right-container{
+        width: 82%;
+        margin-right: 10px;
+    }
+    .right-container .videos .videos-row .video-div .video {
+        height: 200px;
+        width: calc(100vw - 26%);
+    }
+    .right-container .videos .videos-row {
+        height: 1000px;
+    }
+    .video-div .video-des .video-des-logo .logo {
+        height: 45px;
+    }
+    .main-section .header .search-bar #search-icon{
+        padding: 13px;
+    }
+    .video-div .video-des .video-des-content .des-text {
+        font-size: 15px;
+    }
+    .video-div .video-des .video-des-content .small-des {
+        font-size: 12px;
+    }
+    .main-section .header .logo-section {
+        width: 40%;
+    }
+    .menu {
+        width: 40%;
+    }
+    .right-container .videos .videos-row .video-div {
+        height: 340px;
+        width: auto;
+    }
+    .main-section .header {
+        justify-content: space-around;
+    }
+    .main-section .header .search-bar {
+        position: absolute;
+        top: 60px;
+    }
+    .main-container {
+        margin-top: 50px;
+    }
+    .main-section .header .search-bar input {
+        width: 60vw;
+    }
 }
